@@ -1,0 +1,17 @@
+{
+  "newdb": {
+    "username": "root",
+    "password": null,
+    "database": "stxtch_new_db",
+    "host": "localhost",
+    "dialect": "mariadb"
+  },
+  "dev": {
+    "username": "root",
+    "password": null,
+    "database": "stxtch_dev",
+    "host": "localhost",
+    "dialect": "mariadb"
+  }
+  }
+  
