@@ -11,11 +11,9 @@ module.exports = (sequelize) => {
       },
       name: {
         type: Sequelize.STRING,
-        allowNull: false,
       },
       description: {
         type: Sequelize.STRING,
-        allowNull: false,
       },
       featured: {
         type: Sequelize.INTEGER,

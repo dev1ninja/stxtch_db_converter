@@ -11,11 +11,9 @@ module.exports = (sequelize) => {
       },
       url: {
         type: Sequelize.STRING,
-        allowNull: false,
       },
       type: {
         type: Sequelize.ENUM('image', 'video'),
-        allowNull: false,
       },
       width: {
         type: Sequelize.INTEGER,

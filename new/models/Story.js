@@ -11,15 +11,12 @@ module.exports = (sequelize) => {
       },
       title: {
         type: Sequelize.TEXT,
-        allowNull: false,
       },
       summary: {
         type: Sequelize.TEXT,
-        allowNull: false,
       },
       full: {
         type: Sequelize.TEXT,
-        allowNull: false,
       },
       featured: {
         type: Sequelize.INTEGER,

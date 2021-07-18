@@ -24,7 +24,6 @@ module.exports = (sequelize) => {
       },
       email: {
         type: Sequelize.STRING,
-        // unique: true,
       },
       socialUrl: {
         type: Sequelize.STRING,
